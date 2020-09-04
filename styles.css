@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #333;
+}
+
+.calc {
+    background-color: #333;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.calc h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.7em;
+}
+
+.calc input {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 10px;
+    height: 37px;
+    width: 277px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+
+.calc table button {
+    font-size: 20px;
+    background-color: #333;
+    width: 64px;
+    height: 50px;
+    margin-left: 6px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: none;
+}
+
+.calc table button:active {
+    transform: translateZ(20px);
+    box-shadow: none;
+    background-color: rgb(95, 177, 40);
+}
+
+.calc table .cancel {
+    background-color: rgb(219, 24, 128);
+}
+
+.calc table .cancle:active {
+    background-color: rgb(219, 24, 128);
+}
